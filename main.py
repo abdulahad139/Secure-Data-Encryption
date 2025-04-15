@@ -175,3 +175,9 @@ elif choice == "Retrieve Data":
                 else:
                     st.error("❌ Incorrect passkey or corrupted data.")
 
+st.markdown("""
+<hr style="margin-top: 2rem; margin-bottom: 1rem;">
+<div style="text-align: center; color: purple;">
+  Built by Abdul Ahad
+</div>
+""", unsafe_allow_html=True)
